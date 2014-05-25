@@ -19,6 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     // Im typing a comment for test with github
+    // I added another stupid comment in order to test with github
 }
 
 - (void)didReceiveMemoryWarning
