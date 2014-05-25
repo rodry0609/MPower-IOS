@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB5E812D1931F71300B30A1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5E812C1931F71300B30A1F /* Foundation.framework */; };
+		DB5E812F1931F71300B30A1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5E812E1931F71300B30A1F /* CoreGraphics.framework */; };
+		DB5E81311931F71300B30A1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5E81301931F71300B30A1F /* UIKit.framework */; };
+		DB5E81371931F71300B30A1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB5E81351931F71300B30A1F /* InfoPlist.strings */; };
+		DB5E81391931F71300B30A1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5E81381931F71300B30A1F /* main.m */; };
+		DB5E813D1931F71300B30A1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5E813C1931F71300B30A1F /* AppDelegate.m */; };
+		DB5E81401931F71300B30A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5E813E1931F71300B30A1F /* Main.storyboard */; };
+		DB5E81431931F71300B30A1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5E81421931F71300B30A1F /* ViewController.m */; };
+		DB5E81451931F71300B30A1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5E81441931F71300B30A1F /* Images.xcassets */; };
+		DB5E814C1931F71300B30A1F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5E814B1931F71300B30A1F /* XCTest.framework */; };
+		DB5E814D1931F71300B30A1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5E812C1931F71300B30A1F /* Foundation.framework */; };
+		DB5E814E1931F71300B30A1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5E81301931F71300B30A1F /* UIKit.framework */; };
+		DB5E81561931F71300B30A1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB5E81541931F71300B30A1F /* InfoPlist.strings */; };
+		DB5E81581931F71300B30A1F /* MpowerPortingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5E81571931F71300B30A1F /* MpowerPortingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB5E814F1931F71300B30A1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB5E81211931F71300B30A1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB5E81281931F71300B30A1F;
+			remoteInfo = MpowerPorting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB5E81291931F71300B30A1F /* MpowerPorting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MpowerPorting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5E812C1931F71300B30A1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB5E812E1931F71300B30A1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB5E81301931F71300B30A1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB5E81341931F71300B30A1F /* MpowerPorting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MpowerPorting-Info.plist"; sourceTree = "<group>"; };
+		DB5E81361931F71300B30A1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB5E81381931F71300B30A1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB5E813A1931F71300B30A1F /* MpowerPorting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MpowerPorting-Prefix.pch"; sourceTree = "<group>"; };
+		DB5E813B1931F71300B30A1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB5E813C1931F71300B30A1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB5E813F1931F71300B30A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB5E81411931F71300B30A1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB5E81421931F71300B30A1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB5E81441931F71300B30A1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB5E814A1931F71300B30A1F /* MpowerPortingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MpowerPortingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5E814B1931F71300B30A1F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB5E81531931F71300B30A1F /* MpowerPortingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MpowerPortingTests-Info.plist"; sourceTree = "<group>"; };
+		DB5E81551931F71300B30A1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB5E81571931F71300B30A1F /* MpowerPortingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MpowerPortingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB5E81261931F71300B30A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5E812F1931F71300B30A1F /* CoreGraphics.framework in Frameworks */,
+				DB5E81311931F71300B30A1F /* UIKit.framework in Frameworks */,
+				DB5E812D1931F71300B30A1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5E81471931F71300B30A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5E814C1931F71300B30A1F /* XCTest.framework in Frameworks */,
+				DB5E814E1931F71300B30A1F /* UIKit.framework in Frameworks */,
+				DB5E814D1931F71300B30A1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB5E81201931F71300B30A1F = {
+			isa = PBXGroup;
+			children = (
+				DB5E81321931F71300B30A1F /* MpowerPorting */,
+				DB5E81511931F71300B30A1F /* MpowerPortingTests */,
+				DB5E812B1931F71300B30A1F /* Frameworks */,
+				DB5E812A1931F71300B30A1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB5E812A1931F71300B30A1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB5E81291931F71300B30A1F /* MpowerPorting.app */,
+				DB5E814A1931F71300B30A1F /* MpowerPortingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB5E812B1931F71300B30A1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB5E812C1931F71300B30A1F /* Foundation.framework */,
+				DB5E812E1931F71300B30A1F /* CoreGraphics.framework */,
+				DB5E81301931F71300B30A1F /* UIKit.framework */,
+				DB5E814B1931F71300B30A1F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB5E81321931F71300B30A1F /* MpowerPorting */ = {
+			isa = PBXGroup;
+			children = (
+				DB5E813B1931F71300B30A1F /* AppDelegate.h */,
+				DB5E813C1931F71300B30A1F /* AppDelegate.m */,
+				DB5E813E1931F71300B30A1F /* Main.storyboard */,
+				DB5E81411931F71300B30A1F /* ViewController.h */,
+				DB5E81421931F71300B30A1F /* ViewController.m */,
+				DB5E81441931F71300B30A1F /* Images.xcassets */,
+				DB5E81331931F71300B30A1F /* Supporting Files */,
+			);
+			path = MpowerPorting;
+			sourceTree = "<group>";
+		};
+		DB5E81331931F71300B30A1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB5E81341931F71300B30A1F /* MpowerPorting-Info.plist */,
+				DB5E81351931F71300B30A1F /* InfoPlist.strings */,
+				DB5E81381931F71300B30A1F /* main.m */,
+				DB5E813A1931F71300B30A1F /* MpowerPorting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB5E81511931F71300B30A1F /* MpowerPortingTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB5E81571931F71300B30A1F /* MpowerPortingTests.m */,
+				DB5E81521931F71300B30A1F /* Supporting Files */,
+			);
+			path = MpowerPortingTests;
+			sourceTree = "<group>";
+		};
+		DB5E81521931F71300B30A1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB5E81531931F71300B30A1F /* MpowerPortingTests-Info.plist */,
+				DB5E81541931F71300B30A1F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB5E81281931F71300B30A1F /* MpowerPorting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5E815B1931F71300B30A1F /* Build configuration list for PBXNativeTarget "MpowerPorting" */;
+			buildPhases = (
+				DB5E81251931F71300B30A1F /* Sources */,
+				DB5E81261931F71300B30A1F /* Frameworks */,
+				DB5E81271931F71300B30A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MpowerPorting;
+			productName = MpowerPorting;
+			productReference = DB5E81291931F71300B30A1F /* MpowerPorting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB5E81491931F71300B30A1F /* MpowerPortingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5E815E1931F71300B30A1F /* Build configuration list for PBXNativeTarget "MpowerPortingTests" */;
+			buildPhases = (
+				DB5E81461931F71300B30A1F /* Sources */,
+				DB5E81471931F71300B30A1F /* Frameworks */,
+				DB5E81481931F71300B30A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB5E81501931F71300B30A1F /* PBXTargetDependency */,
+			);
+			name = MpowerPortingTests;
+			productName = MpowerPortingTests;
+			productReference = DB5E814A1931F71300B30A1F /* MpowerPortingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB5E81211931F71300B30A1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Rod;
+				TargetAttributes = {
+					DB5E81491931F71300B30A1F = {
+						TestTargetID = DB5E81281931F71300B30A1F;
+					};
+				};
+			};
+			buildConfigurationList = DB5E81241931F71300B30A1F /* Build configuration list for PBXProject "MpowerPorting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB5E81201931F71300B30A1F;
+			productRefGroup = DB5E812A1931F71300B30A1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB5E81281931F71300B30A1F /* MpowerPorting */,
+				DB5E81491931F71300B30A1F /* MpowerPortingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB5E81271931F71300B30A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5E81451931F71300B30A1F /* Images.xcassets in Resources */,
+				DB5E81371931F71300B30A1F /* InfoPlist.strings in Resources */,
+				DB5E81401931F71300B30A1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5E81481931F71300B30A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5E81561931F71300B30A1F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB5E81251931F71300B30A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5E81431931F71300B30A1F /* ViewController.m in Sources */,
+				DB5E813D1931F71300B30A1F /* AppDelegate.m in Sources */,
+				DB5E81391931F71300B30A1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5E81461931F71300B30A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5E81581931F71300B30A1F /* MpowerPortingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB5E81501931F71300B30A1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB5E81281931F71300B30A1F /* MpowerPorting */;
+			targetProxy = DB5E814F1931F71300B30A1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB5E81351931F71300B30A1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5E81361931F71300B30A1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB5E813E1931F71300B30A1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5E813F1931F71300B30A1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB5E81541931F71300B30A1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5E81551931F71300B30A1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB5E81591931F71300B30A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DB5E815A1931F71300B30A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB5E815C1931F71300B30A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MpowerPorting/MpowerPorting-Prefix.pch";
+				INFOPLIST_FILE = "MpowerPorting/MpowerPorting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB5E815D1931F71300B30A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MpowerPorting/MpowerPorting-Prefix.pch";
+				INFOPLIST_FILE = "MpowerPorting/MpowerPorting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB5E815F1931F71300B30A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MpowerPorting.app/MpowerPorting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MpowerPorting/MpowerPorting-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MpowerPortingTests/MpowerPortingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB5E81601931F71300B30A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MpowerPorting.app/MpowerPorting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MpowerPorting/MpowerPorting-Prefix.pch";
+				INFOPLIST_FILE = "MpowerPortingTests/MpowerPortingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB5E81241931F71300B30A1F /* Build configuration list for PBXProject "MpowerPorting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5E81591931F71300B30A1F /* Debug */,
+				DB5E815A1931F71300B30A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5E815B1931F71300B30A1F /* Build configuration list for PBXNativeTarget "MpowerPorting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5E815C1931F71300B30A1F /* Debug */,
+				DB5E815D1931F71300B30A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB5E815E1931F71300B30A1F /* Build configuration list for PBXNativeTarget "MpowerPortingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5E815F1931F71300B30A1F /* Debug */,
+				DB5E81601931F71300B30A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB5E81211931F71300B30A1F /* Project object */;
+}
